@@ -142,8 +142,10 @@ main {
     .main-content ul{
         width: 100%;
         justify-content: center;
+        padding: 0 5px;
+        gap: 40px;
     }
     .main-content li {
-        width: 42%;
+        width: 40%;
     }
 }
