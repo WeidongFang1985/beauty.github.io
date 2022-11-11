@@ -118,3 +118,9 @@ main {
     background-position: -185px -95px;
 }
 
+/*Responsive web design*/
+@media screen and (max-width: 400px) {
+    body {
+        margin: 0;
+    }
+}
