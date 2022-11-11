@@ -119,8 +119,31 @@ main {
 }
 
 /*Responsive web design*/
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 600px) {
     body {
-        margin: 0;
+        margin: 10px;
+    }
+
+    .main-title {
+        width: 100%;
+    }
+
+    .main-content {
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+
+    .main-content div {
+        width: 80%;
+        padding-top: 0;
+    }
+
+    .main-content ul{
+        width: 100%;
+        justify-content: center;
+    }
+    .main-content li {
+        width: 42%;
     }
 }
