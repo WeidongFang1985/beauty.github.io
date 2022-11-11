@@ -1,0 +1,120 @@
+body {
+    margin: 40px;
+}
+main {
+    background-color: #f2f2f2;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.main-title {
+    padding-top: 30px;
+    width: 55%;
+}
+
+.main-title h2 {
+    text-align: center;
+    color: #474747;
+}
+
+.main-title p {
+    font-size: 20px;
+    color: #828282;
+    padding: 0 20px;
+    line-height: 150%;
+}
+
+.main-content {
+    display: flex;
+    padding: 0 20px;
+}
+
+.main-content div {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 60px;
+}
+
+.main-content img {
+    width: 90%;
+}
+
+.main-content a {
+    color: white;
+    width: 200px;
+    height: 40px;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 20px;
+    background-color: #013b81;
+}
+
+.main-content ul {
+    width: 50%;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.main-content ul img {
+    width: 55px;
+}
+
+.main-content li {
+    width: 43%;
+}
+
+.main-content ul h3 {
+    font-size: 17px;
+}
+.main-content ul p {
+    color: #a4a3a3;
+}
+
+.sprite {
+    background-image: url("./asserts/spritesheet.png");
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-bulb {
+    width: 80px;
+    height: 80px;
+    background-position: -5px -5px;
+}
+
+.sprite-calendar {
+    width: 80px;
+    height: 80px;
+    background-position: -95px -5px;
+}
+
+.sprite-candle {
+    width: 80px;
+    height: 80px;
+    background-position: -5px -95px;
+}
+
+.sprite-dollar {
+    width: 80px;
+    height: 80px;
+    background-position: -95px -95px;
+}
+
+.sprite-security {
+    width: 80px;
+    height: 80px;
+    background-position: -185px -5px;
+}
+
+.sprite-timer {
+    width: 80px;
+    height: 80px;
+    background-position: -185px -95px;
+}
+
