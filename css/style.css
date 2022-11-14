@@ -77,7 +77,7 @@ main {
 }
 
 .sprite {
-    background-image: url("./asserts/spritesheet.png");
+    background-image: url("../asserts/spritesheet.png");
     background-repeat: no-repeat;
     display: block;
 }
